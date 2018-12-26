@@ -1,0 +1,12 @@
+Android7.0调用相机时出现新的错误：
+android.os.FileUriExposedException: file:///storage/emulated/0/photo.jpeg exposed beyond app through ClipData.Item.getUri()
+
+
+在Application的onCreat()方法中添加以下代码：
+
+	// android 7.0系统解决拍照的问题
+	StrictMode.VmPolicy.Builder builder = new StrictMode.VmPolicy.Builder();
+	StrictMode.setVmPolicy(builder.build());
+	builder.detectFileUriExposure(); 
+		
+		
