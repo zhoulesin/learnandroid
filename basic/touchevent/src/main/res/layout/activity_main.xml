@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.di5cheng.touchevent.RootView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:background="#3333"
+    android:layout_height="300dp">
+
+    <com.di5cheng.touchevent.ViewGroup1
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="#f00">
+
+        <com.di5cheng.touchevent.View1
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="#599" />
+
+    </com.di5cheng.touchevent.ViewGroup1>
+
+</com.di5cheng.touchevent.RootView>
+

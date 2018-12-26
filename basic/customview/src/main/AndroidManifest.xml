@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.di5cheng.customview">
+
+    <application android:allowBackup="true" android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name" android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true" android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+
+        </activity>
+
+        <!--base-->
+        <activity android:name=".base.BaseActivity"></activity>
+        <!--view1-->
+        <activity android:name=".view1.View1Activity"></activity>
+        <activity android:name=".view1.PointActivity"></activity>
+        <activity android:name=".view1.LineActivity"></activity>
+        <activity android:name=".view1.RectActivity"></activity>
+        <activity android:name=".view1.RoundRectActivity"></activity>
+        <activity android:name=".view1.OvalActivity"></activity>
+        <activity android:name=".view1.CircleActivity"></activity>
+        <activity android:name=".view1.ArcActivity"></activity>
+        <activity android:name=".view1.PieActivity"></activity>
+        <activity android:name=".checkbox.CheckBoxActivity"/>
+        <activity android:name=".BezierView.BezierActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--view2-->
+
+
+    </application>
+
+</manifest>
